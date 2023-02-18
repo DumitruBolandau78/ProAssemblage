@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #11122b;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-inner {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 10px;
+}

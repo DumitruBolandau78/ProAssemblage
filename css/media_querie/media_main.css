@@ -1,0 +1,66 @@
+@media (max-width: 800px){
+    .photobox {
+        flex-direction: column;
+    }
+
+    .photobox-change {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .photobox-change {
+        order: 2;
+    }
+
+    .photo-container {
+        order: 1;
+    }
+
+    .description {
+        padding: 70px 20px 70px 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .tab-photo-container {
+        height: 359px;
+    }
+
+    .contacts-and-languages {
+        align-items: center;
+    }
+
+    .contacts-and-languages-right {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .number {
+        flex-direction: column;
+    }
+
+    .number a {
+        margin-bottom: 10px;
+    }
+
+    .number img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 380px){
+    .tab-photo-container {
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px){
+    .number {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 23px;
+    }
+}

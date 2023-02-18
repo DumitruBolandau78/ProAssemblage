@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.photobox {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.photobox-change {
+    background-color: rgb(10, 10, 10);
+    align-self: center;
+    justify-self: end;
+    padding: 60px 0;
+}
+
+.change-photo-click {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
+
+.photo-container {
+    max-width: 804px;
+    max-height: 459px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.tab-photo-container {
+    border: 5px solid white;
+    width: 100%;
+    height: 459px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.office-furnitures {
+    background-image: url('../img/photobox/office-furnitures.webp');
+}
+
+.conference-table {
+    background-image: url('../img/photobox/conference\ table.webp');
+}
+
+.work-poste {
+    background-image: url('../img/photobox/work-poste.webp');
+}
+
+.bedroom-furniture {
+    background-image: url('../img/photobox/Bedroom\ Furniture.webp');
+}
+
+.pool-table {
+    background-image: url('../img/photobox/pool\ table.webp');
+}
+
+.workstation-furniture {
+    background-image: url('../img/photobox/Workstation\ Furniture.webp');
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fade {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {
+        transform: scale(.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+

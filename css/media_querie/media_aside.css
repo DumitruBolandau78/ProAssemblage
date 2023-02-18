@@ -1,0 +1,23 @@
+@media (max-width: 1024px){
+    .aside {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        position: static;
+        background-color: white;
+    }
+
+    .content {
+        margin-top: 30px;
+    }    
+}
